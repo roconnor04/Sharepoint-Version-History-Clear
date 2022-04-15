@@ -1,4 +1,4 @@
-$SharepointSiteURL = "https://westwoodtesttenant.sharepoint.com/sites/LargeListTest"
+$SharepointSiteURL = "https://testtenant.sharepoint.com/sites/LargeListTest"
 $ListName = "Documents"
 $date = (Get-Date).AddMonths(-6)
 Connect-PnPOnline -Url $SharepointSiteURL -Interactive
